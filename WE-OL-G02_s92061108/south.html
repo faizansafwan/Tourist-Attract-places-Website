@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+
+#head {
+  background-color: rgb(177, 165, 6);
+  width: 1000px;
+  padding: 4px;
+  border: 2px solid rgb(82, 9, 9);
+  color: rgb(243, 247, 14);
+  
+}
+
+.back {
+  background-image: url('background1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  
+}
+
+.ground {
+  opacity: 0.85;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+#southern{
+  background-color: rgb(194, 185, 67);
+  width: 700px;
+  padding: 3px;
+  padding-left: 10px;
+  margin-left: 15px;
+  border: 1.5px solid rgb(160, 55, 55);
+  color: rgb(225, 238, 37);
+}
+
+.southern {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(209, 202, 103);
+  border-style: none;
+  border: 1px solid rgb(190, 50, 50);
+  color: rgb(226, 235, 158);
+  cursor: pointer;
+}
+
+ #place1, #place2, #place3, #place4, #place5, #place6{
+   background-color: rgb(216, 204, 40);
+   width: 700px;
+   padding: 3px;
+   padding-left: 10px;
+   font-family: 'Times New Roman', Verdana, Geneva, serif;
+   color: rgb(243, 245, 225);
+   border: 1px solid rgb(102, 84, 84);
+ }  
+ 
+ 
+
+
+  </style>
+    <title> place in south </title>
+</head>
+
+<body>
+
+    <div class="back">
+      <div class="ground">
+      <h2 id="head"> Tourist attractive places in southern province </h2>
+                  <!----- GALLE DISTRICT ----->
+       <h3 id="southern"> &nbsp; Galle district </h3>
+    
+         <ul>
+       <li>
+        <button onclick="down1()" class="southern"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+          <b>Dutch Fort</b> </button></li>   
+
+       <p id="place1"> </p> 
+
+      <img src="gallefort1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+      <img src="gallefort2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+         
+              <br><br>
+       <li>
+        <button onclick="down2()" class="southern"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+        <b> Historical museum </b> </button></li>
+
+       <p id="place2"></p>
+
+       <img src="galmuseum1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       <img src="galmuseum2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+       
+                 <!----- MATARA DISTRICT ----->
+       <h3 id="southern">&nbsp;Matara district </h3>
+    
+     <li>
+      <button onclick="down3()" class="southern"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+        <b>Matara Fort</b> </button></li>   
+
+     <p id="place3"> </p> 
+
+    <img src="matafort1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+    <img src="matafort2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       
+            <br><br>
+     <li>
+      <button onclick="down4()" class="southern"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+      <b> Point Dondra </b> </button></li>
+
+     <p id="place4"></p>
+
+     <img src="dondra1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+     <img src="dondra2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+
+                  <!----- HAMBANTOTA DISTRICT ----->
+        
+    
+     <h3 id="southern">&nbsp;Hambantota district </h3>
+  
+     <li>
+     <button onclick="down5()" class="southern"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+      <b> Yala National Park </b> </button></li>   
+             
+     <p id="place5"> </p> 
+             
+     <img src="yala1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+     <img src="yala2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+                    
+         <br><br>
+     <li>
+     <button onclick="down6()" class="southern"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+      <b> Martello Tower </b> </button></li>
+             
+     <p id="place6"></p>
+             
+     <img src="martelo1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+     <img src="martelo2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+          
+   </ul>
+
+
+          </div>
+        </div>
+
+          <script>
+
+        function down1(){
+         document.getElementById("place1").innerHTML=
+          "Galle Fort or the Dutch Fort is a Portuguese fortress\
+          which was built in 1588 at the bay of Galle on the\
+          southwestern coast of Sri Lanka. This fortress is completed\
+          with 14 bastions which is still the best-preserved and best\
+          example for the fortified city in Asia built by Europeans by\
+          showing the mix of European architectural styles and South\
+          Asian traditions. UNESCO declared Galle Dutch Fort as a\
+          World Heritage in 1988 under the name of Old Town of Galle\
+          and its Fortifications. It covers an area of 52 hectares\
+          inside the walls. A lighthouse installed on the Utrecht\
+          bastion, and a tower erected for the jubilee of Queen\
+          Victoria in 1883. A Protestant church also built in\
+          Baroque Style in 1775. The most prominent buildings in\
+          the fort complex were the Commandant’s residence, the\
+          arsenal and the gun house. <br> \
+          Resource - https://www.ceylonexpeditions.com/galle-dutch\
+          -fort-sri-lanka";
+
+          }
+
+
+        function down2(){
+         document.getElementById("place2").innerHTML=
+          " If you think you’ve got a lot of old stuff in your cupboards,\
+          then you probably haven’t been to the Historical Mansion\
+          Museum. This restored Dutch house on Leyn Baan Street inside\
+          the Galle Fort, can best be described as a history hoarder’s\
+          paradise.Within these walls, you will find rows, shelves and\
+          cupboards full of colonial artefacts, such as collections of\
+          antique typewriters, cameras, jewellery, VOC china and other\
+          miscellaneous items from yesteryear. There is also an old\
+          Dutch well in the courtyard dating back to the year 1763.This\
+          fascinating and eccentric museum is the private collection of\
+          Abdul Gaffar, a long time resident of Galle. It may also very\
+          well be the largest private museum in Sri Lanka. However,\
+          unlike other museums, there is no entrance fee and everything\
+          here on display is also for sale.In addition to the antiquities\
+          on display here, history also sometimes comes alive. You get\
+          to see live presentations of traditional crafts such as gem\
+          cutting and polishing, as well as the almost lost art of\
+          ‘beeralu lace’ embroidery, brought to us by the Portuguese.\
+          At the Historical Mansion Museum, time passes by unnoticed\
+          and that is definitely a good thing. <br> \
+          Resource - http://www.galleheritage.gov.lk/en/portfolio\
+          /historical-mansion-museum/";
+
+          }
+
+
+        function down3(){
+         document.getElementById("place3").innerHTML=
+         " Built in 1763, located in Matara (160km) is the star fort\
+         built by Van Eck after the revolt, the immensely thick walls\
+         and well within this tiny stronghold was done due to the\
+         indefensible nature of existing Matara fort as noted by the\
+         Dutch Governor Rump in 1717. Significant fact is that during\
+         a revolt in 1762 the Royal Kandyan army conquered it though\
+         an year later Dutch recaptured it. The fort has a decorated\
+         gate with a monogram of the VOC and the words 'Redoute van\
+         Eck'. Below it is van Eck's coat of arms, flanked by two lions.\
+         <br> \
+         Resource - https://www.bestoflanka.com/forts-lighthouses-in-\
+         star.php?lId=01";
+
+         }
+
+            
+        function down4(){
+         document.getElementById("place4").innerHTML=
+         " Dondra Head Lighthouse is a lighthouse located on Dondra Head,\
+         Dondra, the southernmost point in Sri Lanka and is Sri Lanka's\
+         tallest lighthouse, and also one of the tallest in South East\
+         Asia. Dondra Head lighthouse is operated and maintained by the\
+         Sri Lanka Ports Authority. The lighthouse is near the village\
+         of Dondra, and is approximately 6 km southeast of Matara. The\
+         name Dondra is a synonym for Devi-Nuwara in the local Sinhala\
+         language, Devi meaning God and Nuwara meaning City.\
+         Dondra is therefore derived to mean City of the Gods. <br>\
+         Resource - https://www.bestoflanka.com/forts-lighthouses-in\
+         -star.php?lId=01";
+
+         }
+        
+
+        function down5(){
+         document.getElementById("place5").innerHTML=
+         "Yala National Park (also known as Ruhuna National Park) is\
+         located in the south eastern region of Sri Lanka and extends\
+         over two provinces of Hambantota district of southern province\
+         and Monaragala district in Uva province. The entrance to the\
+         park is at Palatupana, 12km from Kirinda. The distance from\
+         Colombo to the entry point of Palatupana is 305 km. <br>\
+         The gateway to Yala National Park is Tissamaharama. A 20 km\
+         drive via Kirinda takes the visitors to the Palatupana. At\
+         Palatupana, the well-designed visitor center provides the\
+         information to the tourists and assign a tracker to all\
+         incoming vehicles. The park provides jeeps with soft–tops\
+         which gives the opportunitiy to view wild life. Dawn and dusk\
+         bring about the best timing for Yala Safari tours in the Yala\
+         National Park . Being located in one of the arid regions of\
+         Sri Lanka, the Climate of Ruhuna National Park is usually hot\
+         and dry. The mean annual temperature is 27 Celsius, although\
+         in the dry season the temperature could go as high as 37\
+         Celsius.\
+         The rocky outcrops scattered over the park provides vantage\
+         points to enjoy the sprawling areas with Sri Lanka’s dry zone\
+         landscape: low scrub and woods. Stillmore, the southern border\
+         of the park being the south-eastern coast, the brackish lagoons\
+         and dunes enhances the distinctive charm of the Yala National\
+         Park. <br> \
+         Resource - https://lakpura.lk/pages/yala-national-park ";
+
+         }
+
+           
+        function down6(){
+         document.getElementById("place6").innerHTML=
+         " The immediate action of the colonial rulers who conquered\
+         the maritime provinces of Sri Lanka then Ceylon, was to take\
+         measures to ensure their secured power. They followed various\
+         kinds of tactics to defend their power and set up fortresses\
+         and defense towers where there were major threats to their\
+         domination. <br>\
+         The historical fortresses at Galle and Matara depict their\
+         architectural competence and defense expertise.\
+         Though the Martello Tower at Hambantota is not spread in a\
+         large area, it could also be considered as a defense watchtower.\
+         Visitors to this historical seaport town of Hambantota through\
+         the western gateway, will not fail to see from afar, adjoining\
+         the sentinel like lighthouse the prominent historical landmark\
+         the Martello Tower at the tip of the seaside promontory.\
+         Resource -https://amazinglanka.com/wp/martello-tower/ ";
+
+           }
+
+
+          </script>
+          
+  
+</body>
+
+
+</html>

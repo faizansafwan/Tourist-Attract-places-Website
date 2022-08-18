@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> todo lists</title>
+<style>
+
+.add{
+  text-transform: capitalize;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(103, 235, 15);
+  color: rgb(170, 128, 48);
+}
+
+div.submit {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 50px;
+  color: rgb(122, 219, 31);
+  
+
+  
+  
+}
+
+.sub {
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol li {
+  text-align: left;
+  background-color: lemonchiffon;
+  margin-right: 900px;
+  padding: 3px;
+  padding-left: 3px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+</style>
+</head>
+<body>
+  
+  <div id="app">
+
+    <div class="todo">
+
+      <h2 class="add"> add your preferred places </h2>
+<div class="submit">
+  <input type="text" v-model="todo" class="sub">
+
+      <input type="submit" value="add" @click="store" class="sub" style="background-color: rgb(179, 128, 0); color: rgb(143, 228, 15); cursor: pointer;" >
+    </div>
+      
+
+      <ol>
+        <li v-for="todo in todos">
+
+          {{todo}}
+
+        </li>
+      </ol>
+
+    </div>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  <script>
+
+      new Vue ({
+        el:'#app',
+
+        data: {
+
+          todo: '',
+          todos:[]
+        },
+
+        methods: {
+          store(){
+            this.todos.push(this.todo)
+          }
+
+        }
+          
+      })
+
+  </script>
+
+</body>
+
+
+</html>

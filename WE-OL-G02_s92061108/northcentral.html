@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+
+#head {
+  background-color: rgb(177, 165, 6);
+  width: 1000px;
+  padding: 4px;
+  border: 2px solid rgb(82, 9, 9);
+  color: rgb(243, 247, 14);
+  
+}
+
+.back {
+  background-image: url('background1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  
+}
+
+.ground {
+  opacity: 0.85;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+#norcent{
+  background-color: rgb(194, 185, 67);
+  width: 700px;
+  padding: 3px;
+  padding-left: 10px;
+  margin-left: 15px;
+  border: 1.5px solid rgb(160, 55, 55);
+  color: rgb(225, 238, 37);
+}
+
+.norcent {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(209, 202, 103);
+  border-style: none;
+  border: 1px solid rgb(190, 50, 50);
+  color: rgb(226, 235, 158);
+  cursor: pointer;
+}
+
+ #place1, #place2, #place3, #place4{
+   background-color: rgb(216, 204, 40);
+   width: 700px;
+   padding: 3px;
+   padding-left: 10px;
+   font-family: 'Times New Roman', Verdana, Geneva, serif;
+   color: rgb(243, 245, 225);
+   border: 1px solid rgb(102, 84, 84);
+ }  
+ 
+ 
+
+
+  </style>
+    <title> place in north central </title>
+</head>
+
+<body>
+
+    <div class="back">
+      <div class="ground">
+      <h2 id="head"> Tourist attractive places in North Central province </h2>
+
+       <h3 id="norcent"> &nbsp; Anuradhapura district </h3>
+    
+         <ul>
+       <li>
+        <button onclick="down1()" class="norcent"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+          <b> Jetavanaramaya </b> </button></li>   
+
+       <p id="place1"> </p> 
+
+      <img src="jetavana1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+      <img src="jetavana2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+         
+              <br><br>
+       <li>
+        <button onclick="down2()" class="norcent"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+        <b> Sri maha bodhi </b> </button></li>
+
+       <p id="place2"></p>
+
+       <img src="mahabodhi1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       <img src="mahabodhi2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+       
+      
+       <h3 id="norcent">&nbsp;polannaruwa district </h3>
+    
+       
+     <li>
+      <button onclick="down3()" class="norcent"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+        <b>Minneriya National Park</b> </button></li>   
+
+     <p id="place3"> </p> 
+
+    <img src="menneri1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+    <img src="menneri2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       
+            <br><br>
+     <li>
+      <button onclick="down4()" class="norcent"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+      <b> Vatadage </b> </button></li>
+
+     <p id="place4"></p>
+
+     <img src="vatadage1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+     <img src="vatadage2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+    
+
+          
+         </ul>
+
+
+          </div>
+        </div>
+
+          <script>
+
+         function down1(){
+          document.getElementById("place1").innerHTML=
+          "Jethawana Stupa is the largest stupa in the Sri Lanka. It\
+           was originally 400 feet (122 meters) in height and was the\
+           third tallest building in the world at that time. Even today\
+           as a brick monument, Jethawanaramaya still remains the\
+           tallest of its kind in the world. <br> \
+           Jethawanaramaya was built by King Mahasena of Anuradhapura\
+           (276-303) was completed by his son Sirimeghavanna. It is\
+           believed that this monument was built upon the enclosure\
+           where Mahinda Maha Thero was cremated. Recent excavation in\
+           the stupa has unearthed a one meter thick brick wall adjacent\
+           to a layer of ash and charcoal. This is believed to be the\
+           chamber where the remains of the great thero rest.<br> \
+           As all other buildings in Anuradhapura this too was subjected\
+           to destruction by North Indian Invaders. Then when the\
+           Anuradhapura was finally abandoned as the capital in the\
+           11th century this stupa with others were covered by the\
+           jungle. King Parakramabahu (12th century) in the Pollonaruwa\
+           era again tried to renovate this stupa and it was rebuilt to\
+           the current height, a reduction from the original height.\
+           Today it stands at 232 feet (71 meters) .<br> \
+           Resource - https://amazinglanka.com/wp/jethavanaramaya/";
+            }
+
+     function down2(){
+       document.getElementById("place2").innerHTML=
+       "The Sacred Bo tree; Jaya Sri Maha Bodhiya of Anuradhapura,\
+        Sri Lanka is the oldest living tree in the documented history\
+        of the world. It is a sapling from the historical Bodhi tree\
+        under which Buddha enlightened. It was planted in 288 BCF and\
+        is the oldest living human-planted tree in the world with known\
+        planting date. It was brought from Buddhagaya India by the Ven.\
+        Sanghamitta Therini, a sister of Arhant Mahinda – who introduced\
+        the Teachings of the Buddha to Sri Lanka. The area around the\
+        Sri Maha Bodhi, the Brazen • Palace, and Ruwanweliseya Dagoba\
+        was once probably part of the Great Temple. The Sacred Bodhi\
+        tree is the oldest historically authenticated tree in the world,\
+        It has been tended by a continuous succession of guardians for\
+        over 2000 years, even during the periods of Indian occupation.<br>\
+        Resource - https://lakpura.lk/pages/jaya-sri-maha-bodhi/";
+
+        }
+
+
+      function down3(){
+        document.getElementById("place3").innerHTML=
+        "From Kandy: Kandy, Hasalaka and Hettipola.Approximately 50km\
+        northeast of Kandy.Turn off at Hasalaka on the Kandy-Mahiyangana\
+        road and proceed via Wilgamuwa upto Wasgamuwa. Visitors from\
+        Matale and Polonnaruwa areas can reach Wasgomuwa via Laggala\
+        and Wilgamuwa. The Wilgamuwa Japan Bridge provides the easy\
+        access to visitors coming from the Mahaweli system-C. From\
+        Dambulla and Polonnaruwa ancient cities, through Bakamuna,\
+        Elahera and Laggala – Pallegama\
+        Wasgamuwa National Park (Wasgomuwa) spanning over 36,900 hectares\
+        is bordered by River Mahaweli Ganga and River Amban Ganga in east\
+        and west. The altitude varies from over 500m at the Sudu kanda\
+        hill to just 76m along the Mahaweli Ganga. The combination of a\
+        number of small reservoirs and Sudu kanda mountain range affords\
+        fine trekking opportunities for keen hikers.<br>\
+        Tropical dry mixed evergreen forest predominates, characterized\
+        by tall trees: Weera (Drypetes sepiaria), Palu (Manikkara\
+        hexandra), Wa (Cassia roxburghii) Ehala (C. Fistula), Buruta\
+        (Satin), Chloroxylon Swietenia, Velang (Pterospermum canescens),\
+        the endemic Galsiyambala (Dialium ovoideum), Milla (Vitaex\
+        Pinanata) and Kaluwara (ebony) (Diospyros Ebenum). <br> \
+        Wasgamuwa National Park’s (Wasgomuwa) climatic conditions are\
+        that of the dry zone. Rain fall is mainly with the northeast\
+        monsoon (Maha) in October-February. Inter-monsoon rains occur\
+        in March-May. Annual rainfall increases from about 1,750 mm in\
+        the north to 2,250 mm in the south. Mean annual temperature is\
+        around 27 centigrade. <br> \
+        Resource - https://lakpura.lk/pages/minneriya-national-park";
+
+        }
+
+            
+      function down4(){
+        document.getElementById("place4").innerHTML=
+        "The Medirigiriya Watadageya in Sri Lanka was built on a rocky\
+        outcrop. It had a single entrance facing north. The doorway was\
+        a huge carved stone frame built at the bottom of a staircase.\
+        The frame measured 9.75 feet in height and 4.75 feet in breadth.\
+        The doorway was followed by a climb of 27 stone steps to a large\
+        resting area. Four steps lead from the resting area to the actual\
+        Stupa house. The Stupa House had a low stone wall, about a meter\
+        tall, which ran around it. Seated against the wall facing the four\
+        cardinal directions were four exquisite stone Buddha statues.\
+        There was a huge 33 feet-long sleeping Buddha in the Stupa House.\
+        The Stupa reigned in the center. <br>\
+        The stupa was surrounded by stone pillars in three concentric\
+        rings. The outer ring had 32 pillars standing at nine feet, the\
+        middle ring 20 pillars standing at 16 feet, and finally, the\
+        inner ring had 16 pillars standing at 17 feet. Some\
+        archaeologists argue that there never was a roof, while other’s\
+        say that the remaining pillars in the ruins still standing prove\
+        that they supported a roof. The heights of the rings of pillars\
+        point toward a roof that would have been very tall in the center\
+        to accommodate the spire of the Stupa, while sloping downward in\
+        a dome-like fashion to a comparatively lower point at the outer\
+        edges. <br> \
+        The ruined but still elegant Medirigiriya Vatadage is a prime\
+        example of the advanced stone crafting practiced by the\
+        craftsmen of Ceylon throughout the ages.";
+
+        }
+        
+          </script>
+          
+  
+</body>
+
+
+</html>

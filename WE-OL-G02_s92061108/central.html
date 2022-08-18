@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+
+#head {
+  background-color: rgb(177, 165, 6);
+  width: 1000px;
+  padding: 4px;
+  border: 2px solid rgb(82, 9, 9);
+  color: rgb(243, 247, 14);
+  
+}
+
+body {
+  background-image: url('background1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.ground {
+  opacity: 0.85;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+#central{
+  background-color: rgb(194, 185, 67);
+  width: 700px;
+  padding: 3px;
+  padding-left: 10px;
+  margin-left: 15px;
+  border: 1.5px solid rgb(160, 55, 55);
+  color: rgb(225, 238, 37);
+}
+
+.central {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(209, 202, 103);
+  border-style: none;
+  border: 1px solid rgb(190, 50, 50);
+  color: rgb(226, 235, 158);
+  cursor: pointer;
+}
+
+ #place1, #place2, #place3, #place4, #place5, #place6{
+   background-color: rgb(216, 204, 40);
+   width: 700px;
+   padding: 3px;
+   padding-left: 10px;
+   font-family: 'Times New Roman', Verdana, Geneva, serif;
+   color: rgb(243, 245, 225);
+   border: 1px solid rgb(102, 84, 84);
+ }  
+ 
+ 
+
+
+  </style>
+    <title> place in central </title>
+</head>
+
+<body>
+
+    
+      <div class="ground">
+      <h2 id="head"> Tourist attractive places in central province </h2>
+                  <!----- KANDY DISTRICT ----->
+       <h3 id="central"> &nbsp; kandy district </h3>
+    
+         <ul>
+       <li>
+        <button onclick="down1()" class="central"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+          <b>Dalada Maligawa</b> </button></li>   
+
+       <p id="place1"> </p> 
+
+      <img src="dalada1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+      <img src="dalada2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+         
+              <br><br>
+       <li>
+        <button onclick="down2()" class="central"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+        <b>Royal botanical Garden</b> </button></li>
+
+       <p id="place2"></p>
+
+       <img src="garden1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       <img src="garden2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+       
+                 <!----- MATALE DISTRICT ----->
+       <h3 id="central">&nbsp;Matale district </h3>
+    
+     <li>
+      <button onclick="down3()" class="central"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+        <b>Sembuwatta Lake</b> </button></li>   
+
+     <p id="place3"> </p> 
+
+    <img src="sembuwatta1.JPG" alt="Not uploaded properly" width="440px" height="470px" >
+    <img src="sembuwatta2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       
+            <br><br>
+     <li>
+      <button onclick="down4()" class="central"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+      <b> Sigiriya Rock </b> </button></li>
+
+     <p id="place4"></p>
+
+     <img src="sigiriya1.jpeg" alt="Not uploaded properly" width="440px" height="470px">
+     <img src="sigiriya2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+
+                  <!----- NUWARA-ELIYA DISTRICT ----->
+        
+    
+     <h3 id="central">&nbsp;Nuwara-eliya district </h3>
+  
+     <li>
+     <button onclick="down5()" class="central"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+      <b>Victoria park</b> </button></li>   
+             
+     <p id="place5"> </p> 
+             
+     <img src="victoriya1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+     <img src="victoriya2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+                    
+         <br><br>
+     <li>
+     <button onclick="down6()" class="central"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+      <b> Gregory lake </b> </button></li>
+             
+     <p id="place6"></p>
+             
+     <img src="gregory1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+     <img src="gregory2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+          
+   </ul>
+
+
+          </div>
+        
+
+          <script>
+
+           function down1(){
+             document.getElementById("place1").innerHTML="Temple of the Sacred Tooth Relic or Sri Dalada Maligawa;\
+             commonly known as the ශ්‍රී දළදා මාළිගාව, is a Buddhist temple\
+             in Kandy, Sri Lanka. It is located in the royal palace complex\
+             of the former Kingdom of Kandy, which houses the relic of the\
+             tooth of the Buddha. Since ancient times, the relic has played\
+             an important role in local politics because it is believed that\
+             whoever holds the relic holds the governance of the country.\
+             The relic was historically held by Sinhalese kings. \
+             The temple of the tooth is a World Heritage Site mainly\
+             due to the temple and the relic. Bhikkhus of the two particular\
+             chapters, the Malwathu chapters and Asgiri chapters conduct daily\
+             worship in the inner chamber of the temple. Rituals are performed\
+             three times daily: at dawn, at noon, and in the evenings. On\
+             Wednesdays, there is a symbolic bathing of the relic with a\
+             herbal preparation made from scented water and fragrant flowers\
+             called Nanumura Mangallaya; this holy water is believed to contain\
+             healing powers and is distributed to those present. The temple\
+             sustained damage from bombings by Janatha Vimukthi Peramuna in 1989,\
+             and by Liberation Tigers of Tamil Eelam in 1998. <br><br> \
+             Resource - https://www.google.com/travel/things-to-do/see-all?g2lb\
+             =4371334%2C4258168%2C4596364%2C4597339%2C4419364%2C4667459%2C468854\
+             0%2C4270442%2C4317915%2C4306835%2C4649665%2C4640247%2C2503771%2C440\
+             1769%2C4680141%2C4624411%2C2503781%2C2502548%2C4641139%2C4605861%2C\
+             4270859%2C4291517%2C4284970&hl=en-LK&gl=lk&ssta=1&dest_mid=%2Fm%2F0\
+             1sg4_&dest_state_type=sattd&dest_src=ts&sa=X&ved=2ahUKEwiSkPaYspj1A\
+             hULrlYBHXzAC6cQ69EBKAB6BAgDEBk#ttdm=7.288972_80.639577_14&ttdmf=%25\
+             2525252Fm%252525252F080nbzw";
+            }
+
+
+           function down2(){
+              document.getElementById("place2").innerHTML=" Royal Botanic\
+              Gardens, Peradeniya are about 5.5 km to the west of the city\
+              of Kandy in the Central Province of Sri Lanka. In 2016, the\
+              garden was visited by 1.2 million locals and 400,000 foreign\
+              visitors. It is near the Mahaweli River. It is renowned for\
+              its collection of orchids. The garden includes more than 4000\
+              species of plants, including orchids, spices, medicinal plants\
+              and palm trees. Attached to it is the \"National Herbarium of\
+              Sri Lanka\". The total area of the botanical garden is 147\
+              acres, at 460 meters above sea level, and with a 200-day\
+              annual rainfall. It is managed by the Division of National\
+              Botanic Gardens of the Department of Agriculture. <br> <br>\
+              Resource - https://www.google.com/travel/things-to-do/see-all\
+              ?g2lb=4371334%2C4258168%2C4596364%2C4597339%2C4419364%2C46674\
+              59%2C4688540%2C4270442%2C4317915%2C4306835%2C4649665%2C464024\
+              7%2C2503771%2C4401769%2C4680141%2C4624411%2C2503781%2C2502548\
+              %2C4641139%2C4605861%2C4270859%2C4291517%2C4284970&hl=en-LK&g\
+              l=lk&ssta=1&dest_mid=%2Fm%2F01sg4_&dest_state_type=sattd&dest\
+              _src=ts&sa=X&ved=2ahUKEwiSkPaYspj1AhULrlYBHXzAC6cQ69EBKAB6BAg\
+              DEBk#ttdm=7.288972_80.639577_14&ttdmf=%252525252Fm%252525252F\
+              080nbzw";
+            }
+
+
+           function down3(){
+             document.getElementById("place3").innerHTML=
+             "Sambuwatta Lake is a beautiful man-made reservoir located\
+              in Elkaduwa, Matale. The lake is bordered by Cambell’s Land\
+              forest reserve and situated at an elevation of 1,140 m.\
+              The misty and chilly atmosphere with pine trees and\
+              tea-covered slopes surrounding the lake make visitors feel\
+              relaxed and tranquil.What puts the lake in the top as a leisure and family\
+              travel destination is the plethora of adventure activities\
+              available such as zip-lining, swan/motor boat riding,\
+              canoeing and hiking. Bathing and swimming in the lake,\
+              however, is not allowed since the lake is fairly\
+              */ deep (30 – 40 ft)*/, there is a separate pool built for\
+              that purpose.<br>\
+              Resource - https://www.thingstodosrilanka.com/";
+             }
+
+            
+           function down4(){
+            document.getElementById("place4").innerHTML=
+            "Deep in the middle of Sri Lanka, a massive column of rock\
+             juts out from the green tropical forest. It reaches 660 feet\
+             tall and features frescoes, graffiti, and landscaped\
+             gardens. The rock is known as Sigiriya (see-gee-REE-yah)\
+             and holds a special place in the island’s cultural history.\
+             It was established as the stronghold of a rogue king over\
+             1,500 years ago, and today the Sigiriya complex stands as\
+             one of the earliest preserved examples of ancient urban\
+             planning. Ultimately the rock was unable to save its king,\
+             but it succeeded in preserving ancient Sinhalese culture.\
+             <br>\
+             Sri Lanka lies just off the southeastern coast of India,\
+             a small island about the size of West Virginia (or a tad\
+             smaller than Austria or Scotland for European readers).\
+             It is known as “the Pearl of the Indian Ocean,” a tribute\
+             to the island’s natural beauty, people – even its shape.\
+             Located in the Matale District of the Central Province\
+             (map), the column of rock is somewhat central to the country.\
+             Historians believe the region has been inhabited since the\
+             3rd century BCE, making the site one of historical and\
+             archaeological significance to Sri Lanka.\
+             The rock is known as Sīhāgiri, meaning “Lion Rock,”\
+             a nod to the giant animal carved from stone which greeted\
+             visitors at the entrance.The site was a temporary capital\
+             from 477-495 CE when Sri Lanka was under the rule of King Kashyapa.\
+             <br> Resource - https://sometimes-interesting.com/sigiriya-\
+             the-lion-rock-of-sri-lanka/";
+
+            }
+        
+
+           function down5(){
+            document.getElementById("place5").innerHTML=
+            "The Queen Victoria Park is situated in middle of the\
+             Nuwara Eliya City and It’s one of the must visit\
+             destination. This park was named to honor the 60th Jubilee\
+             Coronation of Queen Victoria in the year 1897. Originally\
+             the park was the research field of Hakgala Botanical Garden.\
+             <br>\
+             It contains a lot of colorful flowers, and very nice places\
+             to enjoy and relax. It also contains a playing area for\
+             kids, and a train tour for adults too. This place is famous\
+             for bird watching and there are large verities of plants\
+             and trees available. victoria park come alive with the\
+             flowers specially around March to May, and August to\
+             September. <br>\
+             You can see several types of birds in there. Which are they\
+             Indian Pitta, endemic Yellow-eared BulBuls, Sri Lanka\
+             White-eye, Scimitar Babbler and migrant Pied Thrush,\
+             Forest Wagtail, Velvet Nuthatch and Indian Blue Robin,\
+             Kashmir Flycatcher & etc.\
+             If  are gonna plan to stay at “Nuwara Eliya” city, this\
+             is one of the nice place to end up journey and relax some\
+             time. <br>\
+             Resource - https://www.thingstodosrilanka.com/";
+
+           }
+
+           
+           function down6(){
+            document.getElementById("place6").innerHTML=
+            "In the heart of hill country, Gregory Lake is a extremely\
+             popular place with both foreign tourists and locals. This\
+             is a place to enjoy cool weather. Gregory Lake, is a\
+             reservoir in hill city, Nuwara-Eliya, Sri Lanka. Lake\
+             Gregory was built by Governor William Gregory between 1872\
+             and 1877.  The park near the lake gives you various\
+             activities such speed boat, swan boats, dinky boats, Pony\
+             ride and many more. There is also a bicycle path around the\
+             lake. Bicycle cost from 100 rupees per hour. The park around\
+             it has a walkway and its well maintained. So can take a\
+             saunter stroll along the area’s 5 km path. Lot of flowers\
+             between walking paths given extra attraction to the park\
+             and also small restaurants are situated one side of the park.<br>\
+             Resource - https://www.thingstodosrilanka.com/";
+
+           }
+
+
+          </script>
+          
+  
+</body>
+
+
+</html>

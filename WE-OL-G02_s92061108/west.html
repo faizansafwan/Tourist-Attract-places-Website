@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+
+#head {
+  background-color: rgb(177, 165, 6);
+  width: 1000px;
+  padding: 4px;
+  border: 2px solid rgb(82, 9, 9);
+  color: rgb(243, 247, 14);
+  
+}
+
+.back {
+  background-image: url('background1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  
+}
+
+.ground {
+  opacity: 0.85;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+#western{
+  background-color: rgb(194, 185, 67);
+  width: 700px;
+  padding: 3px;
+  padding-left: 10px;
+  margin-left: 15px;
+  border: 1.5px solid rgb(160, 55, 55);
+  color: rgb(225, 238, 37);
+}
+
+.western {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(209, 202, 103);
+  border-style: none;
+  border: 1px solid rgb(190, 50, 50);
+  color: rgb(226, 235, 158);
+  cursor: pointer;
+}
+
+ #place1, #place2, #place3, #place4{
+   background-color: rgb(216, 204, 40);
+   width: 700px;
+   padding: 3px;
+   padding-left: 10px;
+   font-family: 'Times New Roman', Verdana, Geneva, serif;
+   color: rgb(243, 245, 225);
+   border: 1px solid rgb(102, 84, 84);
+ }  
+ 
+ 
+
+
+  </style>
+    <title> place in west </title>
+</head>
+
+<body>
+
+    <div class="back">
+      <div class="ground">
+      <h2 id="head"> Tourist attractive places in western province </h2>
+
+       <h3 id="western"> &nbsp; Colombo district </h3>
+    
+         <ul>
+       <li>
+        <button onclick="down1()" class="western"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+          <b>Vihara Mahadevi park</b> </button></li>   
+
+       <p id="place1"> </p> 
+
+      <img src="viharamaha1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+      <img src="viharamaha2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+         
+              <br><br>
+       <li>
+        <button onclick="down2()" class="western"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+        <b> National museum </b> </button></li>
+
+       <p id="place2"></p>
+
+       <img src="colomuseum1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       <img src="colomuseum2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+       
+      
+       <h3 id="western">&nbsp;Negombo district </h3>
+    
+       
+     <li>
+      <button onclick="down3()" class="western"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+        <b>Negombo beach</b> </button></li>   
+
+     <p id="place3"> </p> 
+
+    <img src="negmbo1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+    <img src="negombo2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       
+            <br><br>
+     <li>
+      <button onclick="down4()" class="western"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+      <b> Dutch Fort </b> </button></li>
+
+     <p id="place4"></p>
+
+     <img src="negombofort1.jpg" alt="Not uploaded properly" width="440px" height="470px">
+     <img src="negombofort2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+    
+
+          
+         </ul>
+
+
+          </div>
+        </div>
+
+          <script>
+
+         function down1(){
+          document.getElementById("place1").innerHTML=
+          "Viharamahadevi Park or formally known as the Victoria park\
+           is the largest, oldest and most colorful park situated in\
+           the heart of Colombo (Cinnamon Gardens), just opposite the\
+           colonial style Town Hall building. <br>\
+           The park was built during the British rule of Sri Lanka as\
+           Victoria Park and remained as Vihara Maha Devi Park, in honor\
+           of a famous historical Sinhalese queen, mother of the hero of\
+           the nation, King Dutugamunu. <br>\
+            \
+           This is the largest & most attractive greenery in Colombo and\
+           best visited from March to May before the monsoon when most\
+           of the flowers are in full bloom.\
+           It has well landscaped gardens with a varity of trees,\
+           flowers, lotus ponds, fountains, golden image of Buddha,\
+           large Statue of Queen Viharamahadevi, and Queen Victoria. On\
+           the southeastern side of the park is a special section for\
+           children with a small train, a zoo of baby animals, mini\
+           aquarium and an amusement park. You will also get to see the\
+           elephants from the temple near Beira Lake who are often kept\
+           in the park to graze.\
+           The park is a perfect place to relax, for shady walks,\
+           picnics and most of all a great place to spend your time with\
+           your family.<br>\
+           Resource - https://www.colomboguide.net/Leisure-Places-in\
+           -Colombo/viharamahadevi-park.html";
+            }
+
+          function down2(){
+           document.getElementById("place2").innerHTML=
+           "The Colombo Museum as it was called at the beginning was\
+           established on 1st January 1877. It founder was Sir William\
+           Henry Gregory, the British Governor of Ceylon (Sri Lanka) at\
+           the time.<br>\
+           The Royal Asiatic Society (CB) was instrumental in bringing\
+           to the notice of Gregory on his appointment as Governor\
+           in 1872 the need for a public museum with much difficulty \
+           the approval of the legislative council was obtained within\
+           a year. The Architect of the Public Works Department, J.G.\
+           Smither was able to prepare the plans for new structure on\
+           Italian architectural style. The construction was completed\
+           in 1876 and the Museum commenced it functions in the\
+           following year.<br>\
+  	       The Authorities of the museum took various steps to display\
+           the cultural and natural heritage of the country for this purpose.\
+           With the development of the museum to international level, it\
+           earned the status of a national museum during the period of\
+           Dr. P. E. P. Deraniyagala. He was able to open up branch museums\
+           in Jaffna, Kandy and Ratnapura and a full - fledged Department\
+           of National Museums was established in 1942 under the act No. 31.\
+           The extension of the number of branch museums has now increased\
+           to nine and in addition a school science programme and a mobile\
+           museum service are also in operation.\
+           This process has further been improved by the arrangement\
+           of the galleries of the ground floor in a historical sequence\
+           and those of the upper galleries on a thematic basis.<br>\
+           Resource - http://www.museum.gov.lk/web/index.php?option=com\
+           _regionalm&task=regionalmuseum&id=6&Itemid=138&lang=en";
+
+           }
+
+
+            function down3(){
+             document.getElementById("place3").innerHTML=
+             "The gorgeous island of Sri Lanka is home to some of the\
+              world’s most stunning beaches. If you are looking for\
+              a holiday where you can spend days lazing around on sandy\
+              golden beaches with shimmering blue waters, then you are\
+              in for a treat! The best place in Sri Lanka to visit to\
+              enjoy its beaches is Negombo, which is located just 15\
+              minutes away from the Bandaranaike International Airport.\
+              <br>\
+              Negombo beaches attract visitors from across the country as\
+              well as the globe. Before you leave for your trip, learn a\
+              little more about the best things to do while you are in\
+              the little coastal town affectionately called the “Little\
+              Rome” of Sri Lanka. <br> \
+              Resource - https://www.lovesrilanka.org/";
+             }
+
+            
+            function down4(){
+            document.getElementById("place4").innerHTML=
+            "Sri Lanka’s history is littered with periods of brutal\
+             colonization under foreign rule, and the remnants of\
+             those war-fueled ages can be seen in buildings such as\
+             the forts at Galle, Colombo and as far north as Jaffna,\
+             that still stand today. The Dutch Fort in Negombo (known\
+             to some as the Negombo Fort) was an important fort built\
+             by the Portuguese approximately 30 kilometres north of\
+             Colombo, to defend their stronghold city. <br>\
+             Reports claim that when it was first built, the\
+             Portuguese-built Negombo Fort was nothing but a square\
+             surrounded by walls, with minimal defenses and few soldiers.\
+             It was easily captured by the Dutch at the beginning of 1640,\
+             and for three years they defended it against the repeated\
+             attempts of the Portuguese to reclaim it, until the end of\
+             1643. Once the fort was back under Portuguese control, they\
+             strengthened its defenses to be able to hold it better under\
+             siege. However, despite their precautions, the Dutch\
+             recaptured it a month later. <br>\
+             Resource - https://www.lovesrilanka.org/dutch-fort/";
+
+            }
+        
+          </script>
+          
+  
+</body>
+
+
+</html>

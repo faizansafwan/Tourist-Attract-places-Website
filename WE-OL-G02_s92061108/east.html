@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+
+#head {
+  background-color: rgb(177, 165, 6);
+  width: 1000px;
+  padding: 4px;
+  border: 2px solid rgb(82, 9, 9);
+  color: rgb(243, 247, 14);
+  
+}
+
+.back {
+  background-image: url('background1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  
+}
+
+.ground {
+  opacity: 0.85;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+#eastern{
+  background-color: rgb(194, 185, 67);
+  width: 700px;
+  padding: 3px;
+  padding-left: 10px;
+  margin-left: 15px;
+  border: 1.5px solid rgb(160, 55, 55);
+  color: rgb(225, 238, 37);
+}
+
+.eastern {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(209, 202, 103);
+  border-style: none;
+  border: 1px solid rgb(190, 50, 50);
+  color: rgb(226, 235, 158);
+  cursor: pointer;
+}
+
+ #place1, #place2, #place3, #place4{
+   background-color: rgb(216, 204, 40);
+   width: 700px;
+   padding: 3px;
+   padding-left: 10px;
+   font-family: 'Times New Roman', Verdana, Geneva, serif;
+   color: rgb(243, 245, 225);
+   border: 1px solid rgb(102, 84, 84);
+ }  
+ 
+ 
+
+
+  </style>
+    <title> place in East </title>
+</head>
+
+<body>
+
+    <div class="back">
+      <div class="ground">
+      <h2 id="head"> Tourist attractive places in Eastern province </h2>
+
+       <h3 id="eastern"> &nbsp; Trincomalee district </h3>
+    
+         <ul>
+       <li>
+        <button onclick="down1()" class="eastern"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+          <b> Shree Thirukoneswaram </b> </button></li>   
+
+       <p id="place1"> </p> 
+
+      <img src="kones1.jpg" alt="Not uploaded properly" width="440px" height="470px" >
+      <img src="kones2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+         
+              <br><br>
+       <li>
+        <button onclick="down2()" class="eastern"
+        onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'">
+        <b> Kanniya hot Spring </b> </button></li>
+
+       <p id="place2"></p>
+
+       <img src="kanniya1.JPG" alt="Not uploaded properly" width="440px" height="470px">
+       <img src="kanniya2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+
+       
+      
+       <h3 id="eastern">&nbsp;Batticaloa district </h3>
+    
+       
+     <li>
+      <button onclick="down3()" class="eastern"
+      onmouseover="style.color='red'" onmouseout="style.color='rgb(226, 235, 158)'" >
+        <b> Batticaloa Fort </b> </button></li>   
+
+     <p id="place3"> </p> 
+
+    <img src="batticlo1.jpeg" alt="Not uploaded properly" width="440px" height="470px" >
+    <img src="batticlo2.jpg" alt="Not uploaded properly" width="440px" height="470px">
+       
+            <br><br>
+     
+
+    
+
+          
+         </ul>
+
+
+          </div>
+        </div>
+
+          <script>
+
+         function down1(){
+          document.getElementById("place1").innerHTML=
+          "Koneswaram Temple or Thirukoneswaram is a Hindu temple in\
+           Trincomalee which is on the east coast of Sri Lanka. The\
+           temple is on a high rock that is surrounded by the sea from\
+           the three sides. It has a long history of about three\
+           millennia that unfolds up to 1580 BC which is worth\
+           discovering and learning.<br> \
+           Koneswaram Temple gets its name from the main deity at the\
+           temple who is god Shiva. Shiva is also addressed as Eshwar\
+           and is above the Thirukunamalai. Thus it was given the name.\
+           The word “Konam” is believed to have come from the Old Tamil\
+           word which means “the peak”. It is one of the five Eeshwerams\
+           that dominated ancient Sri Lanka,\
+           In stone inscriptions, it is stated that the temple was\
+           started in 1580 BC. This is not confirmed though and still\
+           is a mystery. Though it is confirmed that the temple was\
+           quite a popular and well-established temple during the\
+           arrival of exiled Indian Prince Vijaya back in the 6th\
+           century BC.<br> \
+           It is also stated that the mother of King Ravana was a devoted\
+           devotee to the temple.  It is believed that Ravana created the\
+           hot springs for his mother’s last rite. He is a legendary\
+           emperor who is believed to have lived 5000 years ago.<br>\
+           Resource - https://www.thingstodosrilanka.com/listing/\
+           koneswaram-temple/";
+
+           }
+
+          function down2(){
+           document.getElementById("place2").innerHTML=
+           "Kanniya Hot Water wells has now become a popular attraction\
+            for those who visit Trincomalee now that the LTTE Terrorists\
+            which controlled this area has been completely wiped out.\
+            There are 7 hot springs now converted to bathing wells. The\
+            temperature of each is slightly different from each other.\
+            It is also believed the water from the wells have\
+            therapeutic healing powers and can cure many aliments. <br>\
+            According to the notice board put by the Pradeshiya Saba at\
+            the wells, this well goes back to the times of King Ravana\
+            who ruled the country over 5000 years ago. But now it has\
+            been accepted that these wells belonged to an great Buddhist\
+            monastery which span vast area. Ealamisation of the North\
+            and East has destroyed the most of the Buddhist remains in\
+            these areas and only few has escaped the wrath of the\
+            Eelamists who have taken up to the task of erasing all\
+            signs of ancient Buddhist civilization in these areas for\
+            the last 30-40 years. <br> \
+            Resource - https://amazinglanka.com/wp/kanniya-hot-water-wells/";
+
+            }
+
+
+            function down3(){
+             document.getElementById("place3").innerHTML=
+             "Built in the year 1628 by the Portuguese, the Batticaloa\
+              Fort is one of the few remaining strongholds of what once\
+              was the result of rapid European expansionism that took\
+              place during the 17th century. Located on the island of\
+              Puliyanthivu, the Batticaloa Fort has switched hands\
+              between several colonial powers, namely from the\
+              Portuguese to the Dutch in the year 1638, and from the\
+              Dutch to the British in the year 1745. It was used as an\
+              important administrative complex during the British\
+              colonial era, and still houses many functional government\
+              buildings. Intriguingly, the Batticaloa Fort was destroyed\
+              at one point, after it was captured by the Dutch, as it\
+              was initially deemed unnecessary. The Dutch realising its\
+              importance decided to rebuild the fort in 1665, and\
+              included some new additions, such as fortified bastions.<br<>\
+              Resource - https://www.lovesrilanka.org/batticaloa-fort/";
+             }
+
+            
+            
+        
+          </script>
+          
+  
+</body>
+
+
+</html>
